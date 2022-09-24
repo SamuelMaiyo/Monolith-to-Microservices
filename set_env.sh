@@ -1,11 +1,14 @@
 # This file is used for convenience of local development.
 # DO NOT STORE YOUR CREDENTIALS INTO GIT
 export POSTGRES_USERNAME=Maiyo
-export POSTGRES_PASSWORD=maiyoudagramdev
-export POSTGRES_HOST=maiyoudagramdev.csk9plsgknzn.us-east-2.rds.amazonaws.com
+export POSTGRES_PASSWORD=maiyoudagram
+export POSTGRES_HOST=maiyoudagram.c1cvlaujd6hj.us-east-1.rds.amazonaws.com
 export POSTGRES_DB=postgres
-export AWS_BUCKET=arn:aws:s3:::microservice-maiyo-dev
-export AWS_REGION=us-east-2
-export AWS_PROFILE=default
+export AWS_BUCKET=arn:aws:s3:::udagram-maiyo-bucket
+export AWS_REGION=us-east-1
+export AWS_PROFILE=udacity
 export JWT_SECRET=testing
 export URL=http://localhost:8100
+export AWS_ACCESS_KEY_ID=ASIAY46WVKEDHJJ2IQW3
+export AWS_SECRET_ACCESS_KEY=SObJG3Fv0dguxzqbc7CRnGtVJ3qPch8juODgnj/m
+export AWS_SESSION_TOKEN=FwoGZXIvYXdzECgaDK2TIBkcvApbrHfapiLVAXtIDZ3bdjNnuOnbi4/wsoCQo6bOKIdHmHzJsxssP0X3XtplSPC9NfgwH/w198m59W2iBDokS52uwahrYrUnMozAz6mpLj8oCSsIPzWmjIReBO8+Pt/L9UZJr91UvztoKTk1JgaI17jtQWweVZCLYhjZ/siyOGPRSMhuaijcqN8QAUTmCCZnFDZjPG+p1B0WbOm0EVzcWNDXlipNyLulG7TEkddALUmZyvdaLTY16g59yUrbj6BCMA9dqKkTgz/Xsj9wz1KlEfRA/duXCU6utOfA6uHdMCj5s7yZBjIt9oXjK3W0cCOQVkJL9QPNQcOMF5T2C7Yp1RxcZooKXY6IKUqUBcINu7klRemK
