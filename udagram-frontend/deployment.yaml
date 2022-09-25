@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: udagram-frontend
-        image: samuelmaiyo/udagram-frontend:v7
+        image: samuelmaiyo/udagram-frontend:v2
         env:
           - name: POSTGRES_DB
             value: postgres
@@ -37,7 +37,7 @@ spec:
           - name: URL
             value: http://localhost:8100
         ports:
-        - containerPort: 8080
+        - containerPort: 80
         resources:
           limits:
             cpu: 500m
