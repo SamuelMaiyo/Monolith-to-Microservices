@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: samuelmaiyo/reverseproxy
+        image: samuelmaiyo/reverseproxy:v7
         env:
           - name: POSTGRES_DB
             value: postgres
