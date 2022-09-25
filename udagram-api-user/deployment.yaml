@@ -38,7 +38,7 @@ spec:
           - name: URL
             value: http://localhost:8100
         ports:
-        - containerPort: 80
+        - containerPort: 8080
         resources:
           limits:
             cpu: 500m
