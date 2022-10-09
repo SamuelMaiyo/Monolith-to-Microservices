@@ -2,12 +2,15 @@
 
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
 
+The application appears as shown below on the login page:
+
+![Frontend Page](https://github.com/SamuelMaiyo/Monolith-to-Microservices/blob/main/screenshots/Udagram%20Frontend%20Register%20page.PNG)
+
 The project is split into two parts:
 1. Frontend - Angular web application built with Ionic Framework
 2. Backend RESTful API - Node-Express application
 
 ## Getting Started
-> _tip_: it's recommended that you start with getting the backend API running since the frontend web application depends on the API.
 
 ### Prerequisite
 1. The depends on the Node Package Manager (NPM). You will need to download and install Node from [https://nodejs.com/en/download](https://nodejs.org/en/download/). This will allow you to be able to run `npm` commands.
